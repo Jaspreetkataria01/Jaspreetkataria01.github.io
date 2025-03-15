@@ -1,1 +1,3 @@
-# Jaspreetkataria01.github.io
+# Alpha Store
+
+This is a project for Web Programming.
