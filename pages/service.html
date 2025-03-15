@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AlphaStore | Customer Service</title>
+    <link rel="stylesheet" href="../styles/service.css" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../images/logo.png" alt="ShopNow Logo" />
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="service.html">Customer Service</a></li>
+      </ul>
+    </nav>
+    <section>
+      <div id="contact-card">
+        <img src="../images/support.webp" alt="Support image" />
+        <div id="contact-card-content">
+          <form>
+            <label for="name">Full Name:</label><br />
+            <input type="text" id="name" name="name" required /><br /><br />
+
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required /><br /><br />
+
+            <label for="order_id">Order ID (if applicable):</label><br />
+            <input type="text" id="order_id" name="order_id" /><br /><br />
+
+            <label for="issue">Issue Description:</label><br />
+            <textarea id="issue" name="issue" rows="4" required></textarea
+            ><br /><br />
+            <input class="btn" type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 AlphaStore. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
